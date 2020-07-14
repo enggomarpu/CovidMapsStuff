@@ -1,0 +1,90 @@
+/* .jvectormap-legend-cnt{
+    width: 100%; 
+}
+.jvectormap-legend-cnt-h .jvectormap-legend-tick {
+  width: 4.5vw;
+}
+.jvectormap-legend-cnt-h{
+    right: 0;
+    bottom: 0;
+    
+}
+.jvectormap-legend-cnt-h .jvectormap-legend-tick-sample {
+  height: 1vw;
+}
+.jvectormap-legend {
+  background: black;
+  color: white;
+  border-radius: 3px;
+}
+.jvectormap-legend-tick-text {
+  font-size: 1vw;
+} */
+.jvectormap-legend-cnt, .jvectormap-legend-cnt-h{
+  left: 0;
+  left: 50%;  
+}
+.jvectormfap-tip::before{
+  content: '';
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  background-color: black;
+  bottom: -7.5px;
+  transform: rotate(45deg);
+  left: 70px;
+  
+}
+.jvectormap-tip{
+  position: absolute;
+  display: none;
+  border: solid 1px #CDCDCD;
+  border-radius: 3px;
+  background: #292929;
+  color: white;
+  font-family: sans-serif, Verdana;
+  font-size: smaller;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+  transform: translateX(40%);
+  
+  /* transform: translateY(20%); */
+  
+}
+.jvectormap-tip div{
+  padding-top: 10px;
+  margin-bottom: 20px;
+}
+.jvectormap-tip p {
+  padding:0;
+  margin:0;
+}
+/* .jvectormap-customTip{
+  position: absolute;
+  display: none;
+  border: solid 1px #CDCDCD;
+  border-radius: 3px;
+  background: #292929;
+  color: white;
+  font-family: sans-serif, Verdana;
+  font-size: smaller;
+  
+} */
+.tooltip{
+  padding: 10px 30px 10px 10px;
+  font-size: 13px;
+
+}
+.tooltip__act{
+  color: orange;
+}
+.tooltip__conf{
+  color: #ec333f;
+}
+.tooltip__deaths{
+  color: #daece5;
+}
+.tooltip__rec{
+  color: #96ffdc;
+}
